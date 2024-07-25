@@ -1,0 +1,83 @@
+.workout-form-section {
+    display: flex;
+    flex-direction: column;
+    padding: 50px 0;
+}
+
+.workout-form-section h2 {
+    margin-bottom: 20px;
+    font-size: 32px;
+    font-family: 'Poppins';
+    text-align: left;
+}
+
+.addWorkoutForm {
+    text-align: left;
+}
+
+.addWorkoutForm label {
+    margin-right: 20px;
+    font-family: 'Poppins';
+    font-size: 16px;
+}
+
+.addWorkoutForm input {
+    margin-bottom: 30px;
+    border-radius: 30px;
+    padding: 10px 20px;
+    font-family: 'Poppins';
+    font-size: 16px;
+}
+
+.addWorkoutButton {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ab0000;
+    color: white;
+    text-decoration: none;
+    border-radius: 30px;
+    font-size: 16px;
+    border: none;
+    font-family: 'Poppins';
+}
+
+.addWorkoutButton:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.theWholeWorkoutFormSection {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    width: 100%; 
+    padding: 50px 0;
+}
+
+.workout-form-section, 
+.show-workouts-section { 
+    flex: 1; 
+    min-width: 0; 
+    margin: 0 20px; 
+    box-sizing: border-box; 
+}
+
+.loadMoreButton {
+    margin-top: 20px;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ab0000;
+    color: white;
+    text-decoration: none;
+    border-radius: 30px;
+    font-size: 16px;
+    border: none;
+    font-family: 'Poppins';
+}
+
+.loadMoreButton:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}

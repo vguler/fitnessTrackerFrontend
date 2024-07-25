@@ -1,0 +1,12 @@
+.workout-list-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.workout-item {
+    border: 2px solid red;
+    border-radius: 30px;
+    padding: 20px;
+    text-align: center;
+}

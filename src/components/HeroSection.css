@@ -1,0 +1,58 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Racing+Sans+One&display=swap');
+
+.hero {
+    background-image: url('C:\Windows\System32\fitness-tracker-frontend\src\components\christian-chen-KPydzVyWfqg-unsplash.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 100px 0;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.hero-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.hero-text {
+    font-family: 'Poppins';
+    width: 40%;
+    color: white;
+}
+
+.hero-text h1 {
+    font-size: 40px;
+}
+
+.hero-text p {
+    font-size: 16px;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    border-radius: 30px;
+    font-size: 16px;
+}
+
+.cta-button:hover {
+    background-color: white;
+    color: black;
+}
+
+.hero-image {
+    width: 40%;
+}
+
+.hero-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 40px;
+}
